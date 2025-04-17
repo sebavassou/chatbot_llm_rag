@@ -7,12 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1z4GcCFRW2v46bxznC4T0B3K_2KgrU47R
 """
 
-!pip install langchain faiss-cpu sentence-transformers
-!pip install langchain-community
-!pip install streamlit
-!pip install pypdf
+#!pip install langchain faiss-cpu sentence-transformers
+#!pip install langchain-community
+#!pip install streamlit
+#!pip install pypdf
 
-!pip install huggingface_hub[hf_xet]
+#!pip install huggingface_hub[hf_xet]
 
 from langchain.document_loaders import PyPDFLoader
 
